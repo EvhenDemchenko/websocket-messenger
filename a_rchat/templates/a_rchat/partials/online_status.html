@@ -1,0 +1,15 @@
+<div id='online_user_count'>
+    {% if online_users %}
+        <span class=" text-white text-xs font-bold ml-4 px-2.5 py-1 rounded bg-red-500">    
+        {{ online_users.count }} online
+        </span>
+    {% endif %}
+</div>
+
+<div id="online-in-chats">
+
+    {% if online_in_chats  %}
+        <div class="green-dot absolute top-2 right-2 z-20" >  </div>
+    {% endif %}
+    
+</div>
